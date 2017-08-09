@@ -235,7 +235,7 @@ public class KnockApi {
                         // Request member
                         if (activity != null
                                 && activity instanceof LoginActivity) {
-                            ((LoginActivity) activity).equestMember();
+                            ((LoginActivity) activity).requestMember();
                         }
                     }
 
